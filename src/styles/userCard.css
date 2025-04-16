@@ -1,0 +1,41 @@
+.user-card {
+  width: 60%;
+  height: max-content;
+  padding: 20px;
+  padding-right: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 30px;
+}
+
+.user-card img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 2px solid rgba(0, 92, 255, 1);
+}
+
+.user-card h2 {
+  color: rgba(0, 92, 255, 1);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  text-align: start;
+}
+
+.user-card p {
+  color: black;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0;
+  text-align: start;
+}
+
+.user-info {
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+}
